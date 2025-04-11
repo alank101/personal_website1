@@ -122,6 +122,14 @@ const Contact = () => {
                                     {status === 'sending' ? 'Sending...' : 'Send Message'}
                                 </button>
                             </div>
+                            
+                            {/* Success Message */}
+                            {status === 'success' && (
+                                <div className="mt-4 p-4 bg-green-100 text-green-700 rounded-lg text-center">
+                                    <p className="font-medium">Message sent successfully! 🎉</p>
+                                    <p className="text-sm mt-1">Thank you for reaching out. I'll get back to you soon.</p>
+                                </div>
+                            )}
                         </form>
 
                         <div className="bg-gradient-to-r from-teal-100 to-green-100 rounded-xl p-6 mt-8">
