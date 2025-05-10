@@ -5,13 +5,23 @@ import StrumOnIn from '../images/StrumOnIn.png'
 const Projects = () => {
     const projects = [
         {
+            id: 5,
+            title: "Games",
+            description: "This site showcases games I’ve developed, including Connect 4 (built with HTML/CSS/JS during FullStack Academy), Tic Tac Toe, and Unruly (a React app inspired by Simon Tatham’s Puzzles). Each game features unique challenges and ongoing improvements, like upgrading Connect 4 to React with AI enhancements and expanding Unruly with dynamic board sizes.",
+            technologies: ["React", "TailwindCSS"],
+            image: Games,
+            github: "https://github.com/alank101/puzzle-games",
+            video: "",
+            website: "https://abarrypuzzlegames.netlify.app/",
+        },
+        {
             id: 1,
             title: "Strum on In - Mock E-Commerce Website - FullStack Academy - May 2023",
             description: "A mock E-Commerce website for guitars completed as part of FullStack Academy's curriculum. I primairly focused on setting up the backend using PostgreSQL and Express.",
             technologies: ["React", "Node.js", "PostgreSQL", "Express"],
             image: StrumOnIn,
             github: "https://github.com/guitar-strings-123/capstone-project",
-            video: "https://www.youtube.com/watch?v=your-video-id",
+            video: "",
             website: "",
         },
         {
@@ -44,16 +54,6 @@ const Projects = () => {
             video: "https://drive.google.com/file/d/1VIOyum02D1nlj90MooWB4W40zHczsEO3/view?usp=sharing",
             website: "",
         },
-        {
-            id: 5,
-            title: "Games",
-            description: "This site showcases games I’ve developed, including Connect 4 (built with HTML/CSS/JS during FullStack Academy) and Unruly (a React app inspired by Simon Tatham’s Puzzles). Each game features unique challenges and ongoing improvements, like upgrading Connect 4 to React with AI enhancements and expanding Unruly with dynamic board sizes.",
-            technologies: ["React", "TailwindCSS"],
-            image: Games,
-            github: "https://github.com/alank101/puzzle-games",
-            video: "",
-            website: "https://reliable-semolina-30ab21.netlify.app/",
-        }
     ];
 
     return (
